@@ -1,0 +1,25 @@
+html, body{
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.header{
+  display: flex;
+  width: 900px;
+  background-color: black;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header h2{
+  color: white;
+  text-transform: uppercase;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
