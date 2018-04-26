@@ -5,10 +5,10 @@ html, body{
 
 .header{
   display: flex;
-  width: 900px;
   background-color: black;
   align-items: center;
   justify-content: flex-start;
+  width: 960px;
 }
 
 .header img{
@@ -22,4 +22,34 @@ html, body{
   text-transform: uppercase;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
+}
+
+#main-banner{
+  display: flex;
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
+
+#main-banner-text{
+  background-color: black;
+  padding-top: 9rem;
+  color: white;
+  width: 20rem;
+  height: 5rem;
+}
+
+#main-banner-text h2{
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#main-banner-text h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 3rem;
 }
